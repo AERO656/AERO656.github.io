@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project Introduction</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1>Project Introduction</h1>
+    <p>This is the project introduction page.</p>
+
+    <p><a href="index.html">Back to Home</a></p>
+</body>
+</html>
