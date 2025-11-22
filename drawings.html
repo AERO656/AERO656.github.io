@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AERO F656 Fall 2025</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f5f5f5;
+        }
+
+        header {
+            background: #222;
+            color: #fff;
+            padding: 30px;
+            text-align: center;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 32px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        footer {
+            text-align: center;
+            color: #777;
+            font-size: 14px;
+            margin: 40px 0 20px;
+        }
+
+        .navbar {
+            background-color: #222;
+            padding: 10px 0;
+        }
+
+        .nav-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+        }
+
+        .nav-list li {
+            position: relative;
+        }
+
+        .nav-list a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 8px;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            top: 32px;
+            background-color: #333;
+            min-width: 180px;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            border-radius: 6px;
+        }
+
+        .dropdown-content li a {
+            display: block;
+            padding: 10px;
+            color: #fff;
+        }
+
+        .dropdown-content li a:hover {
+            background-color: #444;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul class="nav-list">
+    
+            <li><a href="project_introduction.html">Project Introduction</a></li>
+    
+            <!-- Documentation dropdown -->
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Documentation</a>
+                <ul class="dropdown-content">
+                    <li><a href="reviews.html">Reviews Section</a></li>
+                    <li><a href="users_manual.html">Users Manual</a></li>
+                    <li><a href="statement.html">Statement</a></li>
+                </ul>
+            </li>
+    
+            <li><a href="media.html">Media of Tests and Equipment</a></li>
+    
+            <li><a href="drawings.html">Schematics and Technical Drawings</a></li>
+    
+            <li><a href="team.html">About the Team</a></li>
+    
+        </ul>
+    </nav>
+    <header>
+        <h1>AERO F656 Fall 2025 Project Website</h1>
+    </header>
+    <main>
+        <h2>Schematics and Technical Drawings</h2>
+        <p>
+            This page shows the schemetics and technical drawings.
+        </p>
+        <p>
+            paragraph 2 (could just put the media files in the repo and show them here).
+        </p>
+    </main>
+    <footer>
+        © 2025 AERO F656 University of Alaska Fairbanks
+    </footer>
+</body>
+</html>
