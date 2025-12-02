@@ -85,6 +85,42 @@
         .dropdown:hover .dropdown-content {
             display: block;
         }
+        .team-photo {
+            width: 100%;
+            max-width: 700px;
+            margin: 30px auto;
+            display: block;
+            border-radius: 8px;
+        }
+
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 24px;
+            margin-top: 40px;
+        }
+
+        .member-card {
+            background: #f2f2f2;
+            border-radius: 8px;
+            padding: 18px;
+            text-align: center;
+            aspect-ratio: 1 / 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .member-card h3 {
+            margin: 0 0 10px;
+            font-size: 18px;
+        }
+
+        .member-card p {
+            font-size: 14px;
+            color: #555;
+            margin: 0;
+        }
     </style>
 </head>
 <body>
@@ -120,10 +156,52 @@
         <p>
             This page shows the introductions of our team members.
         </p>
-        <p>
-            paragraph 2.
-        </p>
+        <img src="/images/company_structure.png" alt="Company structure of RMTS Industries" class="team-photo">
 
+        <div class="team-grid">
+
+            <div class="member-card">
+                <h3>Josh Jones III</h3>
+                <p>Should be a short bio here but unfortunately we don't have time for that.</p>
+            </div>
+
+            <div class="member-card">
+                <h3>Caleb Fronek</h3>
+                <p>Should be a short bio here but unfortunately we don't have time for that.</p>
+            </div>
+
+            <div class="member-card">
+                <h3>Alex Suarez</h3>
+                <p>Should be a short bio here but unfortunately we don't have time for that.</p>
+            </div>
+
+            <div class="member-card">
+                <h3>Matthew Johnson</h3>
+                <p>Should be a short bio here but unfortunately we don't have time for that.</p>
+            </div>
+
+            <div class="member-card">
+                <h3>Tiecheng Wang</h3>
+                <p>Should be a short bio here but unfortunately we don't have time for that.</p>
+            </div>
+
+            <div class="member-card">
+                <h3>Dallas Breunig</h3>
+                <p>Should be a short bio here but unfortunately we don't have time for that.</p>
+            </div>
+
+            <div class="member-card">
+                <h3>Merajur Mollah</h3>
+                <p>Should be a short bio here but unfortunately we don't have time for that.</p>
+            </div>
+
+            
+
+        </div>
+
+        <img src="/images/team_photo.jpg" alt="Should have taken a pretty nice group photo but unfortunately we don't have time for that" class="team-photo">
+        <p>Should have taken a pretty nice group photo but unfortunately we don't have time for that</p>
+        
         <p><a href="index.html">Back to Home</a></p>
     </main>
     <footer>
