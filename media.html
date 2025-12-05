@@ -54,6 +54,7 @@
         }
 
         .nav-list a {
+            display: block;
             color: #fff;
             text-decoration: none;
             font-size: 16px;
@@ -63,13 +64,24 @@
         .dropdown-content {
             display: none;
             position: absolute;
-            top: 32px;
+            top: 100%;
+            left: 0;
             background-color: #333;
             min-width: 180px;
             list-style: none;
             padding: 0;
             margin: 0;
             border-radius: 6px;
+        }
+
+        .dropdown-content::before {
+            content: "";
+            position: absolute;
+            top: -20px;
+            left: 0;
+            width: 100%;
+            height: 20px;
+            background: transparent;
         }
 
         .dropdown-content li a {
@@ -85,13 +97,6 @@
         .dropdown:hover .dropdown-content {
             display: block;
         }
-        .team-photo {
-            width: 100%;
-            max-width: 700px;
-            margin: 30px auto;
-            display: block;
-            border-radius: 8px;
-        }
     </style>
 </head>
 <body>
@@ -105,9 +110,13 @@
             <li class="dropdown">
                 <a href="#" class="dropbtn">Documentation</a>
                 <ul class="dropdown-content">
-                    <li><a href="reviews.html">Reviews Section</a></li>
-                    <li><a href="users_manual.html">Users Manual</a></li>
-                    <li><a href="statement.html">Statement</a></li>
+                    <li><a href="/document/System Requirements Review.pdf">System Requirements Review (SSR)</a></li>
+                    <li><a href="/document/Alternate Systems Review.pdf">Alternate Systems Review (ASR)</a></li>
+                    <li><a href="/document/Preliminary Design Review.pdf">Preliminary Design Review (PDR)</a></li>
+                    <li><a href="/document/Engineering Analysis Package.pdf">Engineering Analysis Package (EAP)</a></li>
+                    <li><a href="/document/FAILURE MODES AND EFFECTS ANALYSIS (FMEA).pdf">Failure Modes and Effects Analysis (FMEA)</a></li>
+                    <li><a href="/document/RMTS User Manual.docx.pdf">Users Manual</a></li>
+                    
                 </ul>
             </li>
     
